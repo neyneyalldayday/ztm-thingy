@@ -9,3 +9,22 @@
 
 import { strict as assert } from "assert";
 
+const myFirstName = ():string=> {
+    const firstname = "NeNe";
+    return firstname
+}
+
+const myLastName = ():string => {
+const lastName = "Daddy"
+return lastName
+}
+
+
+const printMyName = ():any => {
+const myFullName = `${myFirstName()}   ${myLastName()}`
+return myFullName
+}
+
+
+
+console.log(printMyName)
